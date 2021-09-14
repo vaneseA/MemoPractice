@@ -13,6 +13,7 @@
 		A856672926EF89390094130F /* MemoPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A856672726EF89390094130F /* MemoPractice.xcdatamodeld */; };
 		A856672B26EF893A0094130F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A856672A26EF893A0094130F /* Assets.xcassets */; };
 		A856672E26EF893A0094130F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A856672C26EF893A0094130F /* LaunchScreen.storyboard */; };
+		A856673726F097C20094130F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A856673626F097C20094130F /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A856672A26EF893A0094130F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A856672D26EF893A0094130F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A856672F26EF893A0094130F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A856673626F097C20094130F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A856671D26EF89390094130F /* MemoPractice */ = {
 			isa = PBXGroup;
 			children = (
+				A856673526F0979A0094130F /* Model */,
 				A856671E26EF89390094130F /* AppDelegate.swift */,
 				A856672026EF89390094130F /* SceneDelegate.swift */,
 				A856672426EF89390094130F /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				A856672726EF89390094130F /* MemoPractice.xcdatamodeld */,
 			);
 			path = MemoPractice;
+			sourceTree = "<group>";
+		};
+		A856673526F0979A0094130F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A856673626F097C20094130F /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 				A856671F26EF89390094130F /* AppDelegate.swift in Sources */,
 				A856672926EF89390094130F /* MemoPractice.xcdatamodeld in Sources */,
 				A856672126EF89390094130F /* SceneDelegate.swift in Sources */,
+				A856673726F097C20094130F /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
