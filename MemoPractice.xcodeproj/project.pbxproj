@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A856671F26EF89390094130F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A856671E26EF89390094130F /* AppDelegate.swift */; };
 		A856672126EF89390094130F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A856672026EF89390094130F /* SceneDelegate.swift */; };
-		A856672326EF89390094130F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A856672226EF89390094130F /* ViewController.swift */; };
 		A856672626EF89390094130F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A856672426EF89390094130F /* Main.storyboard */; };
 		A856672926EF89390094130F /* MemoPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A856672726EF89390094130F /* MemoPractice.xcdatamodeld */; };
 		A856672B26EF893A0094130F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A856672A26EF893A0094130F /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		A856671B26EF89390094130F /* MemoPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A856671E26EF89390094130F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A856672026EF89390094130F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A856672226EF89390094130F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A856672526EF89390094130F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A856672826EF89390094130F /* MemoPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MemoPractice.xcdatamodel; sourceTree = "<group>"; };
 		A856672A26EF893A0094130F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				A856671E26EF89390094130F /* AppDelegate.swift */,
 				A856672026EF89390094130F /* SceneDelegate.swift */,
-				A856672226EF89390094130F /* ViewController.swift */,
 				A856672426EF89390094130F /* Main.storyboard */,
 				A856672A26EF893A0094130F /* Assets.xcassets */,
 				A856672C26EF893A0094130F /* LaunchScreen.storyboard */,
@@ -140,7 +137,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A856672326EF89390094130F /* ViewController.swift in Sources */,
 				A856671F26EF89390094130F /* AppDelegate.swift in Sources */,
 				A856672926EF89390094130F /* MemoPractice.xcdatamodeld in Sources */,
 				A856672126EF89390094130F /* SceneDelegate.swift in Sources */,
