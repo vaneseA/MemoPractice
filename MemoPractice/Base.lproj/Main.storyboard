@@ -50,7 +50,7 @@
                     <navigationItem key="navigationItem" title="MemoPractice" id="96V-3e-5n8">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="M1e-SI-9zb">
                             <connections>
-                                <segue destination="5F3-GL-G4r" kind="presentation" id="g0J-TC-j61"/>
+                                <segue destination="5F3-GL-G4r" kind="presentation" modalPresentationStyle="fullScreen" id="g0J-TC-j61"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -64,11 +64,11 @@
             <objects>
                 <viewController id="XDl-gt-7N6" customClass="ComposeViewController" customModule="MemoPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zqX-tu-f4H">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2fp-HM-gQN">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -127,7 +127,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5F3-GL-G4r" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fQ6-gg-vIu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
