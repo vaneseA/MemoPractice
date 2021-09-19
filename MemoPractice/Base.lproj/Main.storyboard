@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="SUm-gN-7Xf" detailTextLabel="gze-p3-4S6" style="IBUITableViewCellStyleSubtitle" id="HEn-fy-oZ0">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" textLabel="SUm-gN-7Xf" detailTextLabel="gze-p3-4S6" style="IBUITableViewCellStyleSubtitle" id="HEn-fy-oZ0">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HEn-fy-oZ0" id="M3J-08-LhS">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="384.5" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SUm-gN-7Xf">
@@ -40,6 +40,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="ujF-Yy-qHz" kind="show" id="vKo-j6-1FU"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -58,6 +61,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SpB-gL-bry" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="585" y="109"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="0Gf-82-M8S">
+            <objects>
+                <viewController id="ujF-Yy-qHz" customClass="DetailViewController" customModule="MemoPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Qn-M6-3hX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6WZ-Ws-EMv">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <items>
+                                    <barButtonItem title="Item" id="2Al-QM-amv"/>
+                                </items>
+                            </toolbar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XI0-LC-x8w">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ft3-XQ-BX3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XI0-LC-x8w" firstAttribute="leading" secondItem="ft3-XQ-BX3" secondAttribute="leading" id="Dqr-af-bY3"/>
+                            <constraint firstItem="XI0-LC-x8w" firstAttribute="trailing" secondItem="ft3-XQ-BX3" secondAttribute="trailing" id="GBy-An-4Pw"/>
+                            <constraint firstItem="6WZ-Ws-EMv" firstAttribute="top" secondItem="XI0-LC-x8w" secondAttribute="bottom" id="Ke9-vj-O6G"/>
+                            <constraint firstItem="XI0-LC-x8w" firstAttribute="top" secondItem="5Qn-M6-3hX" secondAttribute="top" id="Reo-bC-qRb"/>
+                            <constraint firstItem="6WZ-Ws-EMv" firstAttribute="bottom" secondItem="ft3-XQ-BX3" secondAttribute="bottom" id="cPw-dM-u1S"/>
+                            <constraint firstItem="6WZ-Ws-EMv" firstAttribute="leading" secondItem="ft3-XQ-BX3" secondAttribute="leading" id="cQH-Co-St7"/>
+                            <constraint firstItem="6WZ-Ws-EMv" firstAttribute="trailing" secondItem="ft3-XQ-BX3" secondAttribute="trailing" id="oQp-5W-YtH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="xh4-vU-uju"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="21d-E1-Xrh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1381.1594202898552" y="336.83035714285711"/>
         </scene>
         <!--새 메모-->
         <scene sceneID="eS0-3b-o2b">

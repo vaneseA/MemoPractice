@@ -17,6 +17,7 @@
 		A856673926F1E33A0094130F /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A856673826F1E33A0094130F /* MemoListTableViewController.swift */; };
 		A856673B26F3682A0094130F /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A856673A26F3682A0094130F /* ComposeViewController.swift */; };
 		A856673D26F390750094130F /* UiViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A856673C26F390750094130F /* UiViewController+Alert.swift */; };
+		A856673F26F74C240094130F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A856673E26F74C240094130F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A856673826F1E33A0094130F /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		A856673A26F3682A0094130F /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		A856673C26F390750094130F /* UiViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController+Alert.swift"; sourceTree = "<group>"; };
+		A856673E26F74C240094130F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				A856673826F1E33A0094130F /* MemoListTableViewController.swift */,
 				A856673A26F3682A0094130F /* ComposeViewController.swift */,
 				A856673C26F390750094130F /* UiViewController+Alert.swift */,
+				A856673E26F74C240094130F /* DetailViewController.swift */,
 			);
 			path = MemoPractice;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				A856673D26F390750094130F /* UiViewController+Alert.swift in Sources */,
 				A856672126EF89390094130F /* SceneDelegate.swift in Sources */,
 				A856673726F097C20094130F /* Model.swift in Sources */,
+				A856673F26F74C240094130F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
