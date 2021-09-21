@@ -4,7 +4,7 @@
 //
 //  Created by DK on 2021/09/15.
 //
-
+//ㅈㅇㅇㅇㅇ
 import UIKit
 
 class MemoListTableViewController: UITableViewController {
