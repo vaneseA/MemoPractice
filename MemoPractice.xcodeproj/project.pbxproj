@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A84A7DB826FB6CEA00F075CE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A7DB726FB6CEA00F075CE /* DataManager.swift */; };
 		A856671F26EF89390094130F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A856671E26EF89390094130F /* AppDelegate.swift */; };
 		A856672126EF89390094130F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A856672026EF89390094130F /* SceneDelegate.swift */; };
 		A856672626EF89390094130F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A856672426EF89390094130F /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A84A7DB726FB6CEA00F075CE /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		A856671B26EF89390094130F /* MemoPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A856671E26EF89390094130F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A856672026EF89390094130F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A84A7DB626FB6CCF00F075CE /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				A84A7DB726FB6CEA00F075CE /* DataManager.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
 		A856671226EF89390094130F = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		A856671D26EF89390094130F /* MemoPractice */ = {
 			isa = PBXGroup;
 			children = (
+				A84A7DB626FB6CCF00F075CE /* Date */,
 				A856673526F0979A0094130F /* Model */,
 				A856671E26EF89390094130F /* AppDelegate.swift */,
 				A856672026EF89390094130F /* SceneDelegate.swift */,
@@ -167,6 +178,7 @@
 				A856673D26F390750094130F /* UiViewController+Alert.swift in Sources */,
 				A856672126EF89390094130F /* SceneDelegate.swift in Sources */,
 				A856673726F097C20094130F /* Model.swift in Sources */,
+				A84A7DB826FB6CEA00F075CE /* DataManager.swift in Sources */,
 				A856673F26F74C240094130F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
